@@ -1,0 +1,23 @@
+{
+  "name": "debug_and_improved_workflow",
+  "version": "1.0.0",
+  "description": "learning to use nodemon to auto restart the server on any changes that happens to the code i write",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdalla-shaker/section_4.git"
+  },
+  "author": "Abdullah shaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdalla-shaker/section_4/issues"
+  },
+  "homepage": "https://github.com/abdalla-shaker/section_4#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
